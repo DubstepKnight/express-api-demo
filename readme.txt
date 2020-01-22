@@ -1,92 +1,91 @@
-Weather Station Service API
+# Weather Station Service API
 
-This is a RESTful API design document for a weather station service.
-Table of Contents
-Users	4
-POST /users	4
-Request description	4
-Request body example	4
-Response	4
-Response data structure description	4
-POST/users/login	5
-Request description	5
-Request body example	5
-Response	5
-Response data structure description	5
-Response body example	5
-GET/users/:id	6
-Request description	6
-Request body example	6
-Response	6
-Response data structure description	6
-Response body example	6
-GET/users/	7
-Request description	7
-Response	7
-Response data structure description	7
-Response body example	7
-PUT/users/:id	9
-Request description	9
-Request body example	9
-Response	9
-Response data structure description	9
-Response body example	10
-DELETE/users/:id	11
-Request description	11
-Request body example	11
-Response	11
-Response data structure description	11
-Response body example	11
-Sensors	12
-POST/sensors/	12
-Request description	12
-Request body example	12
-Response	12
-Response data structure description	12
-Response body example	12
-GET/sensors/	13
-Request description	13
-Response	13
-Response data structure description	13
-Response body example	13
-GET/sensors/:id	14
-Request description	14
-Request body example	14
-Response	14
-Response data structure description	14
-Response body example	14
-PUT/sensors/:id	15
-Request description	15
-Request body example	15
-Response	15
-Response data structure description	15
-Response body example	16
-DELETE/sensors/:id	17
-Request description	17
-Request body example	17
-Response	17
-Response data structure description	17
-Response body example	17
-Measurements	18
-POST/measurements	18
-Request description	18
-Request body example	18
-Response	18
-Response data structure description	18
-Response body example	18
-GET/measurements/:sensorId	19
-Request description	19
-Request body example	19
-Response	19
-Response data structure description	19
-Response body example	19
-GET/measurements/:sensorId&startTime=:startTime&endTime=:endTime	20
-Request description	20
-Request body example	20
-Response	20
-Response data structure description	20
-Response body example	20
-
+## This is a RESTful API design document for a weather station service.
+## Table of Contents
+### [Users]
+### [POST /users]
+### [Request description]
+### [Request body example]
+### Response
+### Response data structure description
+### POST/users/login
+### Request description
+### Request body example
+### Response
+### Response data structure description
+### Response body example
+### GET/users/:id
+### Request description
+### Request body example
+### Response
+### Response data structure description
+### Response body example
+### GET/users/
+### Request description
+### Response
+### Response data structure description
+### Response body example
+### PUT/users/:id
+### Request description
+### Request body example
+### Response
+### Response data structure description
+### Response body example
+### DELETE/users/:id
+### Request description
+### Request body example
+### Response
+### Response data structure description
+### Response body example
+### Sensors
+### POST/sensors/
+### Request description
+### Request body example	
+### Response
+### Response data structure description
+### Response body example
+### GET/sensors/
+### Request description	
+### Response	
+### Response data structure description	
+### Response body example	
+### GET/sensors/:id	
+### Request description	
+### Request body example	
+### Response	
+### Response data structure description	
+### Response body example	
+### PUT/sensors/:id	
+### Request description	
+### Request body example	
+### Response	
+### Response data structure description	
+### Response body example	
+### DELETE/sensors/:id	
+### Request description	
+### Request body example	
+### Response	
+### Response data structure description	
+### Response body example	
+### Measurements	
+### POST/measurements	
+### Request description	
+### Request body example	
+### Response	
+### Response data structure description	
+### Response body example	
+### GET/measurements/:sensorId	
+### Request description	
+### Request body example	
+### Response	
+### Response data structure description	
+### Response body example	
+### GET/measurements/:sensorId&startTime=:startTime&endTime=:endTime	
+### Request description	
+### Request body example	
+### Response	
+### Response data structure description	
+### Response body example	
  
 Users
 POST /users
